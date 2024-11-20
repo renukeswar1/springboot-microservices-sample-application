@@ -1,0 +1,54 @@
+
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: gateway-application
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins: "http://localhost:3000"
+            allowed-methods: "*"
+            allowed-headers: "*"
+            allow-credentials: true
+
+
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: movie-api
+          uri: lb://movie-api  # Replace with the actual MOVIE-API address
+          predicates:
+            - Path=/api/movies/**
+
+
+        - id: user-details
+          uri: lb://userdetails-service
+          predicates:
+            - Path=/auth/signup
+
+        - id: task-management
+          uri: lb://task-management
+          predicates:
+            - Path=/task/testapi
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8090
+
+app:
+  jwt:
+    secret: v9y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r5u8x/A?D(G+KbPeShVkYp
+    expiration:
+      minutes: 10

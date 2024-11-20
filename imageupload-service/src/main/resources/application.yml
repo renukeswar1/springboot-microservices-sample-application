@@ -1,0 +1,42 @@
+spring:
+
+  application:
+    name: imageupload-service
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/moviedb
+    username: postgres
+    password: renu
+    driver-class-name: org.postgresql.Driver
+
+  kafka:
+    bootstrap-servers: localhost:29092
+    consumer:
+      group-id: movie-images-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+    properties:
+      schema.registry.url: http://localhost:8081
+      specific.avro.reader: true
+      spring.json.trusted.packages: "org.example.models"
+
+  data:
+    mongodb:
+      uri: mongodb://root:password@localhost:27017/taskdb?authSource=admin
+      database: tasksb
+
+
+kafka:
+  topic:
+    name: movie-images
+
+
+server:
+  port: 8094
+

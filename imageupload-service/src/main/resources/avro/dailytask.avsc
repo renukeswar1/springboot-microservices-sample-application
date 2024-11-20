@@ -1,0 +1,10 @@
+{
+  "namespace": "com.example.taskmanagement.avro",
+  "type": "record",
+  "name": "DailyTask",
+  "fields": [
+    {"name": "id", "type": "int"},
+    {"name": "title", "type": "string"},
+    {"name": "status",  "type": "string"}
+  ]
+}
