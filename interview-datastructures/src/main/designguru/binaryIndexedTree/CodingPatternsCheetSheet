@@ -1,0 +1,79 @@
+Coding Patterns: A Cheat Sheet
+Here is a brief description of all the coding patterns discussed in this course:
+
+1. Pattern: Counting Pattern
+Description: The counting pattern involves using data structures like arrays, hash maps, or sets to efficiently count and track the frequency or occurrences of elements.
+
+Usage: This pattern is widely used in problems where the solution depends on counting occurrences, such as finding duplicates, detecting anagrams, or determining the majority element in a collection.
+
+Problems: 'Count Elements With Maximum Frequency', 'Maximum Population Year', 'Least Number of Unique Integers after K Removals'.
+
+4. Pattern: Monotonic Queue
+Description: The monotonic queue pattern uses a specialized queue that maintains a monotonic order (either increasing or decreasing) to efficiently solve problems involving range queries or sliding windows.
+
+Usage: Applied in problems where you need to find the maximum or minimum within a sliding window or maintain a dynamic list of elements in a specific order.
+
+Problems: 'Minimum Number of Coins for Fruits', 'Continuous Subarrays', 'Sum of Subarray Minimums'.
+
+3. Pattern: Simulation
+Description: The simulation pattern involves mimicking a real-world process or system step-by-step to explore various outcomes and solve complex problems.
+
+Usage: Commonly used in problems involving dynamic systems, game mechanics, or scenarios where the state changes over time and requires careful modeling.
+
+Problems: 'Array Transformation', 'Water Bottles', 'Spiral Matrix III'.
+
+4. Pattern: Linear Sorting Algorithms
+Description: This pattern includes sorting algorithms that run in linear time for specific types of data, such as Radix Sort, Counting Sort, and Bucket Sort.
+
+Usage: Useful when sorting data with constraints that allow faster-than-comparative sorting, particularly when the range of data is small relative to the number of elements.
+
+Problems: 'Relative Sort Array', 'Height Checker', 'Array Partition'.
+
+5. Pattern: Meet in the Middle
+Description: This pattern involves splitting a problem into two halves, solving each half separately, and then combining the results to find the solution.
+
+Usage: Effective in scenarios where a brute-force solution is too slow, allowing the problem size to be reduced exponentially by dividing it into manageable subproblems.
+
+Problems: 'Subset Sum Equal to Target', 'Subsets having Sum between A and B', 'Closest Subsequence Sum'.
+
+6. Pattern: Mo's Algorithm
+Description: Mo's algorithm is an algorithm for answering range queries efficiently using a square root decomposition approach.
+
+Usage: Useful in problems that require answering multiple range queries on static data, optimizing query performance to approximately , where n is the data size and q is the number of queries.
+
+Problems: 'XOR Queries of a Subarray', 'Distinct elements in subarray', 'Minimum Absolute Difference Queries'.
+
+7. Pattern: Serialize and Deserialize Pattern
+Description: This pattern involves converting complex data structures like trees or graphs into a storable format (serialization) and reconstructing them back into their original form (deserialization).
+
+Usage: Critical in scenarios where data needs to be stored, transmitted, or reconstructed, such as saving the state of a data structure or transferring data over a network.
+
+Problems: 'Serialize and Deserialize Binary Tree', 'Serialize and Deserialize N-ary Tree'.
+
+8. Pattern: Clone Pattern
+Description: The clone pattern involves creating a deep copy of a data structure to duplicate it without modifying the original.
+
+Usage: Essential when working with data structures that require independent copies for safe manipulation, particularly in concurrent programming or when dealing with complex objects like graphs and linked lists.
+
+Problems: 'Clone Graph', 'Copy List with Random Pointer'.
+
+9. Pattern: Articulation Point and Bridge
+Description: This pattern is used to find critical points (articulation points) and edges (bridges) in a graph whose removal would disconnect the graph or increase its number of connected components.
+
+Usage: Particularly useful in network design, identifying vulnerabilities in a network, or analyzing graph structures for critical points of failure.
+
+Problems: 'Minimum Number of Days to Disconnect Island', 'Minimize Malware Spread', 'Minimize Malware Spread II'.
+
+10. Pattern: Segment Tree
+Description: Segment Tree is a data structure that allows efficient range queries and updates, such as finding the minimum, maximum, or sum over a range of elements.
+
+Usage: Applied in problems that involve multiple queries and updates on an array or sequence, providing logarithmic time complexity for both operations.
+
+Problems: 'Range Sum Query - Mutable', 'Range Minimum Query', 'Queue Reconstruction by Height'.
+
+11. Pattern: Binary Indexed Tree
+Description: Also known as a Fenwick Tree, this data structure provides an efficient way to perform cumulative frequency queries and updates.
+
+Usage: Used in scenarios involving prefix sums, cumulative frequencies, or dynamic query handling where an efficient update and query mechanism is required.
+
+Problems: 'Number of Longest Increasing Subsequence', 'Maximum Profitable Triplets With Increasing Prices I ', 'Count of Range Sum'.
