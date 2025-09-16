@@ -1,5 +1,0 @@
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/shared-models/src/main/java/org/example/models/VideoUploadEvent.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/shared-models/src/main/java/org/example/models/VideoFormat.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/shared-models/src/main/java/org/example/models/VideoProcessingStatus.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/shared-models/src/main/java/org/example/models/VideoProcessingEvent.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/shared-models/src/main/java/org/example/models/MovieMessageEvent.java

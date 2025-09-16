@@ -1,4 +1,0 @@
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-worker-service/src/main/java/com/example/videoworker/VideoWorkerServiceApplication.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-worker-service/src/main/java/com/example/videoworker/config/WorkerConfig.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-worker-service/src/main/java/com/example/videoworker/consumer/VideoUploadConsumer.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-worker-service/src/main/java/com/example/videoworker/service/VideoProcessingService.java

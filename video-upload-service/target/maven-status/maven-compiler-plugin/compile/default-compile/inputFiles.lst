@@ -1,6 +1,0 @@
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-upload-service/src/main/java/com/example/videoupload/VideoUploadServiceApplication.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-upload-service/src/main/java/com/example/videoupload/config/AWSConfig.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-upload-service/src/main/java/com/example/videoupload/controller/VideoUploadController.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-upload-service/src/main/java/com/example/videoupload/entity/Video.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-upload-service/src/main/java/com/example/videoupload/repository/VideoRepository.java
-/home/runner/work/springboot-microservices-sample-application/springboot-microservices-sample-application/video-upload-service/src/main/java/com/example/videoupload/service/VideoUploadService.java
