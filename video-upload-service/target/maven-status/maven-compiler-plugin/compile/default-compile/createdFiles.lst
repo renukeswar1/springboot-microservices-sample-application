@@ -1,0 +1,7 @@
+com/example/videoupload/repository/VideoRepository.class
+com/example/videoupload/VideoUploadServiceApplication.class
+com/example/videoupload/controller/VideoUploadController.class
+com/example/videoupload/entity/Video.class
+com/example/videoupload/config/AWSConfig.class
+com/example/videoupload/service/VideoUploadService.class
+com/example/videoupload/entity/Video$VideoStatus.class

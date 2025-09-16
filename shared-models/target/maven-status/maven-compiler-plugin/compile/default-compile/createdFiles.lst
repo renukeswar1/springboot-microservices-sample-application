@@ -1,0 +1,5 @@
+org/example/models/VideoFormat.class
+org/example/models/MovieMessageEvent.class
+org/example/models/VideoProcessingStatus.class
+org/example/models/VideoProcessingEvent.class
+org/example/models/VideoUploadEvent.class

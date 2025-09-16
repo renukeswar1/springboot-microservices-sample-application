@@ -1,0 +1,5 @@
+com/example/videoworker/config/WorkerConfig.class
+com/example/videoworker/VideoWorkerServiceApplication.class
+com/example/videoworker/service/VideoProcessingService$1.class
+com/example/videoworker/consumer/VideoUploadConsumer.class
+com/example/videoworker/service/VideoProcessingService.class
