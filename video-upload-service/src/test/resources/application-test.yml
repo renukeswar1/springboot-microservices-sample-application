@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: video-upload-service-test
+  
+  # Use in-memory H2 database for testing
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+  
+  h2:
+    console:
+      enabled: true
+
+# Disable Kafka for tests
+spring.kafka.enabled: false
+
+# Disable Eureka for tests  
+eureka:
+  client:
+    enabled: false
+
+# Disable AWS for tests
+aws:
+  s3:
+    enabled: false

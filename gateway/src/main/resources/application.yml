@@ -25,6 +25,10 @@ spring:
           predicates:
             - Path=/api/movies/**
 
+        - id: video-upload-service
+          uri: lb://video-upload-service
+          predicates:
+            - Path=/api/videos/**
 
         - id: user-details
           uri: lb://userdetails-service
